@@ -14,8 +14,8 @@ let tauPlanet,
 let system = new PlanetSystem(w >> 1, h >> 1);
 let selectedObj = null;
 
-function preload() {
-  img = loadImage("../images/logo.png");
+function preload(){
+	 img = loadImage('https://quangmanh1998.github.io/planetjs/images/logo.png');
 }
 
 function sqDistance(a, b) {
